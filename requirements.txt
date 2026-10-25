@@ -1,0 +1,4 @@
+python-telegram-bot>=21.6,<22
+twilio>=9.3,<10
+phonenumbers>=8.13
+python-dotenv>=1.0
