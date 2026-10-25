@@ -1,0 +1,35 @@
+# ===== Telegram =====
+# @BotFather থেকে পাওয়া Bot Token
+BOT_TOKEN=8817461451:AAFylhUPIZmg8FF23E7p0H4ymTEQUvYLAwY
+
+# Main Admin-এর Telegram User ID (একাধিক হলে কমা দিয়ে: 123456789,987654321)
+ADMIN_IDS=8543999809
+
+# ===== MongoDB =====
+MONGO_URI=mongodb+srv://rhrahul907_db_user:5lAciKhOXjKUrZjf@cluster0.jjv9snm.mongodb.net/?appName=Cluster0
+MONGO_DB=thordata_bot
+
+# ===== Security =====
+# Thordata Token এনক্রিপ্ট করার কী (Fernet)। তৈরি করতে:
+# python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"
+# একবার সেট করলে আর বদলাবেন না (বদলালে সংরক্ষিত Token পড়া যাবে না)
+ENCRYPTION_KEY=d2a429f510e739d522dee968f2a1f4da
+
+# ===== Thordata (ঐচ্ছিক) =====
+# বট থেকে Token সেট করলে এগুলো লাগবে না। Dashboard -> My Account থেকে পাবেন।
+THORDATA_TOKEN=d2a429f510e739d522dee968f2a1f4da
+THORDATA_KEY=d2a429f510e739d522dee968f2a1f4da
+
+# 1 = Residential Proxies, 2 = Unlimited Proxy Servers
+PROXY_TYPE=1
+# Proxy লাইনে যে host/port দেখানো হবে (Thordata Dashboard-এর নির্দেশ অনুযায়ী মিলিয়ে নিন)
+PROXY_HOST=t.thordata.online
+PROXY_PORT=9999
+
+# Account traffic_balance-এর একক। ডকুমেন্টেশন: MB। সংখ্যা ১০২৪ গুণ ভুল দেখালে KB করুন।
+TRAFFIC_BALANCE_UNIT=MB
+
+# ===== Hosting =====
+# Render/Koyeb ইত্যাদি PORT নিজে দেয়। লোকাল রানে খালি রাখুন।
+# PORT=8080
+LOG_LEVEL=INFO
